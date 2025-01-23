@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Ticker from "./ticker"
 
 export default function Header() {
