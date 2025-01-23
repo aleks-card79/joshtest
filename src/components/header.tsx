@@ -6,15 +6,15 @@ export default function Header() {
     <div className="bg-[#c1f3ed] rounded-[20px] w-[470px] h-[93px] mx-auto overflow-hidden font-['General_Sans',sans-serif]">
       <div className="h-[50px] px-12 pt-4 pb-[32px]">
         <nav className="flex justify-between w-full">
-          <a href="/" className="text-[#2d2d2d] text-base hover:opacity-80 transition-opacity">
+          <Link href="/" className="text-[#2d2d2d] text-base hover:opacity-80 transition-opacity">
             Home
-          </a>
-          <a href="/careers" className="text-[#2d2d2d] text-base opacity-50 hover:opacity-80 transition-opacity">
+          </Link>
+          <Link href="/careers" className="text-[#2d2d2d] text-base opacity-50 hover:opacity-80 transition-opacity">
             Careers
-          </a>
-          <a href="/patients" className="text-[#2d2d2d] text-base opacity-50 hover:opacity-80 transition-opacity">
+          </Link>
+          <Link href="/patients" className="text-[#2d2d2d] text-base opacity-50 hover:opacity-80 transition-opacity">
             Patients
-          </a>
+          </Link>
         </nav>
       </div>
       <div className="h-[1px] bg-[#B1CED1] opacity-60"></div>
@@ -26,4 +26,3 @@ export default function Header() {
     </div>
   )
 }
-
